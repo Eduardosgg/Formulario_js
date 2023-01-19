@@ -23,8 +23,8 @@ body {
   overflow: hidden;
 }
 
-.header {
-  background-color: blue;
+.heade {
+  background-color: rgba(0, 0, 255, 0.212);
   padding: 20px;
 }
 
@@ -43,7 +43,7 @@ body {
   margin-bottom: 5px;
 }
 
-.form-control input {
+input {
   border: 2px solid black;
   display: block;
   border-radius: 10px;
@@ -63,4 +63,15 @@ body {
   position: absolute;
   bottom: 0;
   visibility: hidden;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.success input {
+  border-color: rgb(73, 151, 92);
 }
